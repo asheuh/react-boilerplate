@@ -9,6 +9,10 @@
     },
     "author": "asheuh",
     "license": "MIT",
+    "engines": {
+        "npm": "6.4.1",
+        "node": "11.4.0"
+    },
     "dependencies": {
         "bootstrap": "^4.1.3",
         "css-loader": "^2.0.0",
