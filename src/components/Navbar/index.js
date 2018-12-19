@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
-                <a className="navbar-brand" href="#">AUTHOR'S HAVEN</a>
+                <a className="navbar-brand" href="#">Dummy Project for LMS</a>
                 <button className="navbar-toggler" 
                     type="button" data-toggle="collapse" 
                     data-target="#navbarSupportedContent" 

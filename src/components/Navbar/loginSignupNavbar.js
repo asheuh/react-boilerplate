@@ -3,7 +3,7 @@ import React from 'react';
 const SignupLoginNavbar = () => {
     return (
         <div className="container-fluid">
-            <a href="/"><h1>AUTHOR'S HAVEN</h1></a>
+            <a href="/"><h1>Dummy Project for LMS</h1></a>
         </div>
     )
 }
