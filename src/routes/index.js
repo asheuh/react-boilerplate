@@ -6,7 +6,6 @@ import Signin from '../containers/Signin';
 import Signup from '../containers/Signup';
 
 const Routes = () => {
-
     return (
         <Router history={browserHistory}>
             <Switch>
