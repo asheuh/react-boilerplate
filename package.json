@@ -4,7 +4,7 @@
     "description": "Boilerplate for react application",
     "main": "index.js",
     "scripts": {
-        "start": "webpack-dev-server --mode development --hot",
+        "start": "webpack-dev-server --mode production --hot",
         "build": "webpack --mode production",
         "heroku-postbuild": "npm run build"
     },
