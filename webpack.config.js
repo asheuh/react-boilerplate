@@ -5,7 +5,7 @@ const path = require('path');
 module.exports = {
     entry: './src/index.js',
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: __dirname,
         filename: 'index_bundle.js',
         publicPath: '/'
     },
@@ -32,6 +32,7 @@ module.exports = {
     },
     devServer: {
         historyApiFallback: true,
+        contentBase: './'
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
